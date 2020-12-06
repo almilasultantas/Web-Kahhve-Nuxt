@@ -1,6 +1,6 @@
 <template>
   <div >
-    <div class="center" >
+    <div class="center" style="padding-left:1%; pedding-right:15%; padding-top:5%" >
       <button class="bigbttn length" style="text-align: center;">
         <div>
           <button class="smallbttn"  >GİRİŞ</button>

@@ -59,11 +59,11 @@ export default {
     }
     .BenzerUrunlerContainer{
         background-color: #EBEBEB;
-        width: 1900px;
+        width: 90%;
 
     }
     .baslik{
-        padding-left: 800px;
+        text-align: center;
         font-size: 28px;
         color:  #C65800;
     }

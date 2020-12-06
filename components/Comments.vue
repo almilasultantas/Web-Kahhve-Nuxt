@@ -1,6 +1,6 @@
 <template>
   <div >
-      <div style="margin-left:500px; margin-right:200px">
+      <div style="margin-left:8%; ">
           <img src="https://kahhve.com/zeplin/img/star_secili.png" class="star">
           <img src="https://kahhve.com/zeplin/img/star_secili.png" class="star">
           <img src="https://kahhve.com/zeplin/img/star_secili.png" class="star">
@@ -24,7 +24,7 @@
           
       </div>
       <hr>
-      <div style="margin-left:500px; margin-right:200px">
+      <div style="margin-left:8%;">
           <img src="https://kahhve.com/zeplin/img/star_secili.png" class="star">
           <img src="https://kahhve.com/zeplin/img/star_secili.png" class="star">
           <img src="https://kahhve.com/zeplin/img/star_secili.png" class="star">
@@ -61,7 +61,7 @@ export default {
     .yorum{
         color: #603813;
         font-family: sans-serif;
-        font-size: 22px;
+        font-size: 30px;
     }
     .kullaniciAdi{
         color: gray;
