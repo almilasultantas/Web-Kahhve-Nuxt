@@ -1,13 +1,19 @@
 <template>
-  <div style="width=100%; height=15%">
-    <div>
-  <b-carousel
-    id="carousel-fade"
-    style="text-shadow: 0px 0px 2px #000"
-    fade
-    indicators
-    
-  >
+  <div>
+    <b-carousel
+      id="carousel-1"
+      v-model="slide"
+      :interval="4000"
+      controls
+      indicators
+      background="#ababab"
+      img-width="1024"
+      img-height="480"
+      style="text-shadow: 1px 1px 2px #333;"
+      @sliding-start="onSlideStart"
+      @sliding-end="onSlideEnd"
+    >
+      <!-- Text slides with image -->
       <b-carousel-slide
         
         img-src="//st1.myideasoft.com/idea/bs/42/myassets/slider_pictures/pictures_3_7.jpg?revision=1605008358"
@@ -18,7 +24,7 @@
       ></b-carousel-slide>
 
       <!-- Slides with custom text -->
-      <b-carousel-slide img-src="//st1.myideasoft.com/idea/bs/42/myassets/slider_pictures/pictures_3_10.jpg?revision=1607073239">
+      <b-carousel-slide img-src="https://st3.myideasoft.com/idea/bs/42/myassets/slider_pictures/pictures_3_6.jpg?revision=1607073239">
         
       </b-carousel-slide>
 
@@ -41,16 +47,26 @@
       
     </b-carousel>
 
-</div>
-
     
   </div>
 </template>
 
 <script>
 export default {
-   
-   
+    data() {
+      return {
+        slide: 0,
+        sliding: null
+      }
+    },
+    methods: {
+      onSlideStart(slide) {
+        this.sliding = true
+      },
+      onSlideEnd(slide) {
+        this.sliding = false
+      }
+    }
 }
 </script>
 

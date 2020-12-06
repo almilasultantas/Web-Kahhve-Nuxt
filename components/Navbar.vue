@@ -17,7 +17,7 @@
                 <!-- Right aligned nav items -->
                 <b-navbar-nav class="menuItemPadding">
                         <b-nav-item class="menuItems" href="/Coffeepage" >  KAHVELER</b-nav-item>
-                        <b-nav-item class="menuItems"  href="//localhost:3000/">EKİPMAN & AKSESUARLAR</b-nav-item>
+                        <b-nav-item class="menuItems"  href="#">EKİPMAN & AKSESUARLAR</b-nav-item>
                         <b-nav-item class="menuItems">TANIŞMA SETLERİ</b-nav-item>
                         <b-nav-item-dropdown text="MARKALAR" right class="menuItems">
                             <b-dropdown-item href="#" >Able</b-dropdown-item>
@@ -42,16 +42,17 @@
                         <b-nav-item class="menuItems">HEDİYELİKLER</b-nav-item>
                     </b-navbar-nav>
                     <b-navbar-nav class="ml-auto sag">
-                        <b-nav-item href="#" class="menuItems">GİRİŞ</b-nav-item>
+                        <b-nav-item href="/Loginpage" class="menuItems">GİRİŞ</b-nav-item>
                         <b-nav-item href="#" class="menuItems">
                             <p class="h3 mb-2"> <b-icon  icon="search" style="color: #C65800"></b-icon>
                         </p></b-nav-item>
                         <b-nav-item href="#" class="menuItems">
                             <p class="h3 mb-2"> <b-icon  icon="heart" style="color: #C65800"></b-icon>
                         </p></b-nav-item>
-                        <b-nav-item href="#" class="menuItems">
-                            <p class="h3 mb-2"> <b-icon  icon="cart4" style="color: #C65800"></b-icon>
-                        </p></b-nav-item>
+                        <b-nav-item href="/Shoppingbasket" class="menuItems" >
+                            <p class="h3 mb-2"> <b-icon  icon="cart4" style="color: #C65800" /></p>
+                        </b-nav-item>
+                       
                     </b-navbar-nav>
             </b-navbar>
             </div>
@@ -65,6 +66,7 @@
 <script>
 import Vue from 'vue'
 import { BootstrapVue, BootstrapVueIcons } from 'bootstrap-vue'
+
 
 Vue.use(BootstrapVue)
 Vue.use(BootstrapVueIcons)
@@ -122,4 +124,6 @@ export default {
     .sag{
         padding-right: 200px;
     }
+    
+   
 </style>

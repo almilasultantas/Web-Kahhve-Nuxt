@@ -1,6 +1,10 @@
 <template>
-    <div class="ornek" style="background-color:#ebebeb">
+    <div class="ornek" style="background-color:#ebebeb; margin: auto;">
         <div>
+          <div style="font-size:80px;  padding-left:26%;  color:#C65800"> <b-icon   icon="cart4" style="color: #C65800;" /> SEPETİNİZ
+          <br> <h6>Siparişinizi hemen tamamlayabilirseniz ürünleriniz yarın (Pazartesi) kargoda.  <b-icon   icon="info-circle-fill" style="color: #C65800;" /> <br> <br></h6> 
+           </div>
+          <hr style="width:52%;text-align:center;background-color:#C65800;border-width: 3px;">
         <img
             src="https://kahhvecom.imgix.net/urunler/92_1604665685_IpH.jpg?h=750&ixlib=php-1.0.6&lossless=1&w=750&s=61c4196082c042619077e9fee599c617"
             alt=""
@@ -186,5 +190,6 @@ ast{
   width: 550px;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
+
 
 </style>

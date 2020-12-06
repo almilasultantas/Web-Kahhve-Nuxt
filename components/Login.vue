@@ -1,7 +1,7 @@
 <template>
   <div >
     <div class="center" >
-      <button class="bigbttn length">
+      <button class="bigbttn length" style="text-align: center;">
         <div>
           <button class="smallbttn"  >GİRİŞ</button>
           <button class="smallbttn">KAYIT OL</button>
@@ -65,15 +65,14 @@ export default {
 
   background-image: url("https://kahhve.com/zeplin/img/bulut.png");
   background-color: #ebebeb;
+  
+  
 }
 .length {
   width: 175px;
   border-radius: 10px;
 }
-.centerr {
-  color: #ebebeb;
-  background-image: url("https://kahhve.com/zeplin/img/bulut.png");
-}
+
 .btn{
     border-radius: 10px;
     background-color: white;
